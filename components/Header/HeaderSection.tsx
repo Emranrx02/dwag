@@ -15,7 +15,7 @@ export default function HeaderSection() {
           height={500}
           alt="water dog"
         />
-        <div className="text-white w-full xl:w-[50%] relative z-10 mt-28 xl:mt-0 xl:mb-28 font-semibold">
+        <div className="text-white w-full xl:w-[50%] xl:order-2 order-1 relative z-10 mt-28 xl:mt-0 xl:mb-28 font-semibold">
           <p>Normal Dog by Day Degen At night</p>
           <h1 className=" text-9xl sm:text-[10rem] sm:py-20">
             <span className="font-sans">$</span>Milo
