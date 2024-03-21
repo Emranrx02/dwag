@@ -15,7 +15,7 @@ export default function AboutUs() {
             alt="about-us"
           />
           <p className="text-6xl px-5 text-yellow font-semibold">about us</p>
-          <p className="text-yellow px-5">
+          <p className="text-yellow mb-10 px-5">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
             dolore sequi iusto, placeat, ducimus voluptatibus illo nostrum ut
             vitae voluptatem doloribus, aperiam sed harum! Ratione officiis

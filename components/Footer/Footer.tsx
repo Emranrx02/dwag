@@ -25,7 +25,7 @@ export default function Footer() {
               <div className="flex gap-7">
                 <Link
                   target="_blank"
-                  href={""}
+                  href={"https://x.com/basemilo"}
                   className="w-16 h-16 hover:scale-110 cursor-pointer -rotate-3 bg-yellow flex items-center justify-center"
                 >
                   <FaXTwitter className="text-white p-2" />
@@ -48,7 +48,7 @@ export default function Footer() {
               className="w-[30rem]"
             />
           </div>
-          <div className="mt-9 px-3 py-2 rounded-full bg-yellow text-white text-xs sm:text-xl md:text-2xl">
+          <div className="mt-28 px-3 py-2 rounded-full bg-yellow text-white text-xs sm:text-xl md:text-2xl">
             EnH<span className="font-sans font-semibold">4</span>
             JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g
           </div>
