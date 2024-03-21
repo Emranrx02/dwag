@@ -22,7 +22,7 @@ export default function Footer() {
               className="w-[20rem]"
             />
           </div>
-          <div className="mt-9 px-3 py-2 rounded-full bg-yellow text-white text-base sm:text-xl md:text-2xl">
+          <div className="mt-9 px-3 py-2 rounded-full bg-yellow text-white text-sm sm:text-xl md:text-2xl">
             EnH<span className="font-sans font-semibold">4</span>
             JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g
           </div>
