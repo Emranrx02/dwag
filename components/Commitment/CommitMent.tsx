@@ -41,7 +41,7 @@ export default function CommitMent() {
             <div className="flex flex-col items-center">
               <div className="border-8 max-w-fit border-white rounded-2xl">
                 <Image
-                  src={"/dog-3.png"}
+                  src={"/water.png"}
                   className="w-[18rem]"
                   height={600}
                   width={600}
@@ -63,7 +63,7 @@ export default function CommitMent() {
                 />
               </div>
               <div className="text-center w-[110%] text-2xl px-5 py-1.5 bg-white text-yellow rounded-full relative z-20 -mt-3">
-                liquidity burned
+                Liqudity Locked
               </div>
             </div>
           </div>

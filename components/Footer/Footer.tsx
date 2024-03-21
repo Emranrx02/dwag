@@ -39,18 +39,20 @@ export default function Footer() {
                 </Link>
               </div>
             </div>
-            <Image
-              src={"/dog-5.png"}
-              width={500}
-              height={500}
-              quality={100}
-              alt="dog"
-              className="w-[30rem]"
-            />
-          </div>
-          <div className="mt-28 px-3 py-2 rounded-full bg-yellow text-white text-xs sm:text-xl md:text-2xl">
-            EnH<span className="font-sans font-semibold">4</span>
-            JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g
+            <div className="flex flex-col items-center">
+              <Image
+                src={"/dog-5.png"}
+                width={500}
+                height={500}
+                quality={100}
+                alt="dog"
+                className="w-[30rem]"
+              />
+              <div className=" px-3 py-2 rounded-full bg-yellow text-white text-xs sm:text-sm inline-block">
+                EnH<span className="font-sans font-semibold">4</span>
+                JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g
+              </div>
+            </div>
           </div>
         </div>
       </ContentLayout>
