@@ -24,14 +24,14 @@ export default function Footer() {
               </Link>
               <Link
                 target="_blank"
-                href={"http://twitter.com/konko_sol"}
+                href={""}
                 className="w-16 h-16 hover:scale-110 cursor-pointer -rotate-3 bg-yellow flex items-center justify-center"
               >
                 <FaXTwitter className="text-white p-2" />
               </Link>
               <Link
                 target="_blank"
-                href={"https://t.me/Konkochannel"}
+                href={"https://t.me/milocommunity"}
                 className="w-16 h-16 rotate-3 hover:scale-110 cursor-pointer bg-yellow flex items-center justify-center"
               >
                 <FaTelegramPlane className="text-white p-2" />

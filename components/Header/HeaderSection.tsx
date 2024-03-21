@@ -24,7 +24,9 @@ export default function HeaderSection() {
           </h1>
           <div className="flex items-center gap-5 text-white  text-7xl">
             <FaXTwitter className="border-[8px] border-white p-2 rounded-full " />
-            <FaTelegramPlane className="border-[8px] border-white p-2 rounded-full " />
+            <Link target="_blank" href={"https://t.me/milocommunity"}>
+              <FaTelegramPlane className="border-[8px] border-white p-2 rounded-full " />
+            </Link>
             <FaChartLine className="border-[8px] border-white p-2 rounded-full " />
           </div>
         </div>
