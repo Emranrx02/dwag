@@ -3,5 +3,5 @@ export default function ContentLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <section className="max-w-[70rem] mx-auto">{children}</section>;
+  return <section className="max-w-[90rem] mx-auto">{children}</section>;
 }

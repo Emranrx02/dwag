@@ -12,30 +12,32 @@ export default function Footer() {
       <ContentLayout>
         <div className="flex flex-col items-center">
           <div className="flex sm:flex-row flex-col items-center gap-8">
-            <div className="flex gap-5 text-yellow mt-7 text-7xl">
+            <div className="flex flex-col sm:flex-row gap-5 text-yellow mt-7 text-7xl">
               <Link
                 target="_blank"
                 href={
                   "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g&inputAmount=0.2&fixed=in"
                 }
-                className="bg-red order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
+                className="bg-yellow order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
               >
-                Buy konko
+                Buy Milo
               </Link>
-              <Link
-                target="_blank"
-                href={""}
-                className="w-16 h-16 hover:scale-110 cursor-pointer -rotate-3 bg-yellow flex items-center justify-center"
-              >
-                <FaXTwitter className="text-white p-2" />
-              </Link>
-              <Link
-                target="_blank"
-                href={"https://t.me/milocommunity"}
-                className="w-16 h-16 rotate-3 hover:scale-110 cursor-pointer bg-yellow flex items-center justify-center"
-              >
-                <FaTelegramPlane className="text-white p-2" />
-              </Link>
+              <div className="flex gap-7">
+                <Link
+                  target="_blank"
+                  href={""}
+                  className="w-16 h-16 hover:scale-110 cursor-pointer -rotate-3 bg-yellow flex items-center justify-center"
+                >
+                  <FaXTwitter className="text-white p-2" />
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://t.me/milocommunity"}
+                  className="w-16 h-16 rotate-3 hover:scale-110 cursor-pointer bg-yellow flex items-center justify-center"
+                >
+                  <FaTelegramPlane className="text-white p-2" />
+                </Link>
+              </div>
             </div>
             <Image
               src={"/dog-5.png"}
