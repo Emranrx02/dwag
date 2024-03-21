@@ -8,6 +8,9 @@
 .bg-yellow {
   background-color: #e5a220;
 }
+.bg-red {
+  background-color: rgb(237 59 35 / var(--tw-bg-opacity));
+}
 .border-yellow {
   border-color: #e5a220;
 }
