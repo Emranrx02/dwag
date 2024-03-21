@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <section className="bg-white my-12 px-5 ">
+    <section className="bg-gray-900 py-12 px-5 ">
       <ContentLayout>
         <div className="flex gap-5 text-2xl flex-col items-center">
           <Image src={"/water.png"} width={500} height={500} alt="about-us" />

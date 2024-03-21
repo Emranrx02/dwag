@@ -5,7 +5,7 @@ import { FaChartLine } from "react-icons/fa6";
 import Image from "next/image";
 export default function Footer() {
   return (
-    <footer className="bg-white relative mt-56 mb-24 flex justify-center">
+    <footer className="bg-gray-900 relative pt-56 pb-24 flex justify-center">
       <ContentLayout>
         <div className="flex flex-col items-center">
           <div className="flex sm:flex-row flex-col items-center gap-8">
