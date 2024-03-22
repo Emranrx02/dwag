@@ -41,8 +41,8 @@ export default function CommitMent() {
             <div className="flex flex-col items-center">
               <div className="border-8 max-w-fit border-white rounded-2xl">
                 <Image
-                  src={"/water.png"}
-                  className="w-[18rem]"
+                  src={"/dog-6.png"}
+                  className="w-[18rem] translate-x-7 -translate-y-5 scale-105"
                   height={600}
                   width={600}
                   alt="500"

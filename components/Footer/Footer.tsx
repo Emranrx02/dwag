@@ -32,7 +32,7 @@ export default function Footer() {
                 </Link>
                 <Link
                   target="_blank"
-                  href={"https://t.me/milocommunity"}
+                  href={"https://t.me/BaseMilo"}
                   className="w-16 h-16 rotate-3 hover:scale-110 cursor-pointer bg-yellow flex items-center justify-center"
                 >
                   <FaTelegramPlane className="text-white p-2" />
@@ -49,8 +49,8 @@ export default function Footer() {
                 className="w-[30rem]"
               />
               <div className=" px-3 py-2 rounded-full bg-yellow text-white text-xs sm:text-sm inline-block">
-                EnH<span className="font-sans font-semibold">4</span>
-                JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g
+                0xe2<span className="font-sans">4</span>
+                9ace21368eafa51fddef81a072f3c13aa8b9d
               </div>
             </div>
           </div>

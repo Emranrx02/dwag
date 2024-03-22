@@ -6,14 +6,14 @@ export default function AboutUs() {
     <section id="about-us" className="bg-gray-900 w-full py-12  ">
       <ContentLayout>
         <div className="flex gap-5 text-2xl flex-col items-center">
-          {/* <Image
+          <Image
             src={"/water.png"}
             className="scale-[1.005] mb-24"
             quality={100}
             width={500}
             height={500}
             alt="about-us"
-          /> */}
+          />
           <p className=" text-5xl sm:text-6xl px-5 text-yellow font-semibold">
             The First real Dog on Base
           </p>
