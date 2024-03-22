@@ -32,7 +32,7 @@ export default function HeaderSection() {
             <Link
               target="_blank"
               href={
-                "https://dexscreener.com/base/0x6fd34677ecdfae4cae732a5b22f1a3082917eb15"
+                "https://dexscreener.com/base/0x930809a2Fd243eDfc338D5b70904Dce08d11A12C"
               }
             >
               <FaChartLine className="border-[8px] border-white p-2 rounded-full " />

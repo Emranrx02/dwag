@@ -16,7 +16,7 @@ export default function Footer() {
               <Link
                 target="_blank"
                 href={
-                  "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g&inputAmount=0.2&fixed=in"
+                  "https://dexscreener.com/base/0x930809a2Fd243eDfc338D5b70904Dce08d11A12C"
                 }
                 className="bg-yellow order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
               >
@@ -49,8 +49,8 @@ export default function Footer() {
                 className="w-[30rem]"
               />
               <div className=" px-3 py-2 rounded-full bg-yellow text-white text-xs sm:text-sm inline-block">
-                0xe2<span className="font-sans">4</span>
-                9ace21368eafa51fddef81a072f3c13aa8b9d
+                0x930809a2Fd2<span className="font-sans">4</span>3eDfc338D5b7090
+                <span className="font-sans">4</span>Dce08d11A12C
               </div>
             </div>
           </div>
