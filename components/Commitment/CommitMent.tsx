@@ -16,6 +16,7 @@ export default function CommitMent() {
                   height={600}
                   width={600}
                   alt="500"
+                  priority
                 />
               </div>
               <div className="text-center w-[110%] text-2xl px-5 py-1.5 bg-white text-yellow rounded-full relative z-20 -mt-3">
@@ -30,6 +31,7 @@ export default function CommitMent() {
                   height={600}
                   width={600}
                   alt="500"
+                  priority
                 />
               </div>
               <div className="text-center w-[110%] text-2xl px-5 py-1.5 bg-white text-yellow rounded-full relative z-20 -mt-3">
@@ -46,6 +48,7 @@ export default function CommitMent() {
                   height={600}
                   width={600}
                   alt="500"
+                  priority
                 />
               </div>
               <div className="text-center w-[110%] text-2xl px-5 py-1.5 bg-white text-yellow rounded-full relative z-20 -mt-3">
@@ -60,6 +63,7 @@ export default function CommitMent() {
                   height={600}
                   width={600}
                   alt="500"
+                  priority
                 />
               </div>
               <div className="text-center w-[110%] text-2xl px-5 py-1.5 bg-white text-yellow rounded-full relative z-20 -mt-3">

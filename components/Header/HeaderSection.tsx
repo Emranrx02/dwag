@@ -16,6 +16,7 @@ export default function HeaderSection() {
           quality={100}
           height={1080}
           alt="water dog"
+          priority
         />
         <div className="text-white w-full xl:w-[50%] xl:order-2 order-1 relative z-10 mt-20 xl:mt-0 xl:mb-24 font-semibold">
           <p>I’m Milo a degenerate gambler on the Base network</p>

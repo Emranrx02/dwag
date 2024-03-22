@@ -22,6 +22,9 @@ const inter = localFont({
 export const metadata: Metadata = {
   title: "Milo",
   description: "buy solona tokens",
+  icons: {
+    icon: "/ico2.ico",
+  },
 };
 
 export default function RootLayout({

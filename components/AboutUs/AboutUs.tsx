@@ -10,6 +10,7 @@ export default function AboutUs() {
             src={"/water.png"}
             className="scale-[1.005] mb-24"
             quality={100}
+            priority
             width={500}
             height={500}
             alt="about-us"

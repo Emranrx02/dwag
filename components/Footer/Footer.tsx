@@ -45,6 +45,7 @@ export default function Footer() {
                 width={500}
                 height={500}
                 quality={100}
+                priority
                 alt="dog"
                 className="w-[30rem]"
               />
