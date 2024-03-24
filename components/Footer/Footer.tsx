@@ -13,15 +13,13 @@ export default function Footer() {
         <div className="flex flex-col items-center">
           <div className="flex sm:flex-row flex-col items-center gap-8">
             <div className="flex flex-col sm:flex-row gap-5 text-yellow mt-7 text-7xl">
-              <Link
+              {/* <Link
                 target="_blank"
-                href={
-                  "https://dexscreener.com/base/0x930809a2Fd243eDfc338D5b70904Dce08d11A12C"
-                }
+                href={"#"}
                 className="bg-yellow order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
               >
                 Buy Milo
-              </Link>
+              </Link> */}
               <div className="flex gap-7">
                 <Link
                   target="_blank"
@@ -50,8 +48,7 @@ export default function Footer() {
                 className="w-[30rem]"
               />
               <div className=" px-3 py-2 rounded-full bg-yellow text-white text-xs sm:text-sm inline-block">
-                0x930809a2Fd2<span className="font-sans">4</span>3eDfc338D5b7090
-                <span className="font-sans">4</span>Dce08d11A12C
+                00000000000000000000000000000000000000000000000000
               </div>
             </div>
           </div>
