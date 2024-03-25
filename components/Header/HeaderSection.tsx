@@ -30,9 +30,14 @@ export default function HeaderSection() {
             <Link target="_blank" href={"https://t.me/MiloBase"}>
               <FaTelegramPlane className="border-[8px] border-white p-2 rounded-full " />
             </Link>
-            {/* <Link target="_blank" href={"#"}>
+            <Link
+              target="_blank"
+              href={
+                "#https://dexscreener.com/base/0x51eb872bc68137785abbd5586867cf00fa38cfa6"
+              }
+            >
               <FaChartLine className="border-[8px] border-white p-2 rounded-full " />
-            </Link> */}
+            </Link>
           </div>
         </div>
       </div>
