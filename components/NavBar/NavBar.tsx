@@ -36,6 +36,12 @@ export default function NavBar() {
             Our commitment
           </p>
           <p
+            onClick={() => handleClick("join")}
+            className="menu-item cursor-pointer"
+          >
+            join us
+          </p>
+          <p
             onClick={() => handleClick("contract")}
             className="menu-item cursor-pointer"
           >
