@@ -1,15 +1,17 @@
-import dynamic from "next/dynamic";
+"use client";
+
+// import dynamic from "next/dynamic";
 import AboutUs from "@/components/AboutUs/AboutUs";
 import CommitMent from "@/components/Commitment/CommitMent";
 import Footer from "@/components/Footer/Footer";
 import HeaderSection from "@/components/Header/HeaderSection";
 
-const NoSSRMiloPfp = dynamic(
-  () => import("@/components/KonvaSection/KonvaSection"),
-  {
-    ssr: false,
-  }
-);
+// const NoSSRMiloPfp = dynamic(
+//   () => import("@/components/KonvaSection/KonvaSection"),
+//   {
+//     ssr: false,
+//   }
+// );
 
 export default function Home() {
   return (
@@ -17,7 +19,7 @@ export default function Home() {
       <HeaderSection />
       <AboutUs />
       <CommitMent />
-      <NoSSRMiloPfp />
+      {/* <NoSSRMiloPfp /> */}
       <Footer />
     </main>
   );
