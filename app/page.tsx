@@ -16,8 +16,8 @@ export default function Home() {
     <main className="">
       <HeaderSection />
       <AboutUs />
-      <CommitMent />
       <NoSSRMiloPfp />
+      <CommitMent />
       <Footer />
     </main>
   );

@@ -50,8 +50,7 @@ export default function Footer() {
                 className="w-[30rem]"
               />
               <div className=" px-3 py-2 rounded-full bg-yellow text-white text-xs sm:text-sm inline-block">
-                0x6F10607507afF<span className="font-sans">4</span>
-                50b8Cf0A6fa26<span className="font-sans">4</span>1a781889DdfA
+                0000000000000000000000000000000000000009
               </div>
             </div>
           </div>
