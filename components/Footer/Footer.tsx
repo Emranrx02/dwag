@@ -15,9 +15,7 @@ export default function Footer() {
             <div className="flex flex-col sm:flex-row gap-5 text-yellow mt-7 text-7xl">
               <Link
                 target="_blank"
-                href={
-                  "https://dexscreener.com/base/0x51eb872bc68137785abbd5586867cf00fa38cfa6"
-                }
+                href={"#"}
                 className="bg-yellow order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
               >
                 Buy Milo
@@ -50,8 +48,7 @@ export default function Footer() {
                 className="w-[30rem]"
               />
               <div className=" px-3 py-2 rounded-full bg-yellow text-white text-xs sm:text-sm inline-block">
-                0x6F10607507afF<span className="font-sans">4</span>
-                50b8Cf0A6fa26<span className="font-sans">4</span>1a781889DdfA
+                0000000000000000000000000000000000000009
               </div>
             </div>
           </div>
