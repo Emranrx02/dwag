@@ -8,7 +8,6 @@ import { IoIosCloseCircleOutline } from "react-icons/io";
 
 const MiloImage = ({
   img,
-  imgDog,
   stageSize,
 }: {
   img: any;
