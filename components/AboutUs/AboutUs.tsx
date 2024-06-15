@@ -7,7 +7,7 @@ export default function AboutUs() {
       <ContentLayout>
         <div className="flex gap-5 text-2xl flex-col items-center">
           <Image
-            src={"/water.png"}
+            src={"/newDog-2.png"}
             className="scale-[1.005] mb-24"
             quality={100}
             priority
