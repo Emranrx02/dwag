@@ -134,7 +134,7 @@ export default function KonvaSection() {
 
   return (
     <div id="join" className="bg-yellow flex flex-col items-center py-36">
-      <h2 className="text-6xl text-white">JOIN THE Dwag ARMY</h2>
+      <h2 className="text-6xl text-white">JOIN THE Dawg ARMY</h2>
       <p className="mt-7">Upload your pfp and tap to edit</p>
       <div className="max-w-[800px] relative border-8 mt-14 border-white">
         <IoIosCloseCircleOutline
