@@ -9,11 +9,12 @@ export default function NewCommitment() {
           <h4 className="text-5xl">our commitment</h4>
           <Image
             src={"/newDog-3.jpg"}
-            width={1000}
+            width={600}
             height={100}
+            className="max-w-7xl"
             alt="new Dog"
           />
-          <div className="flex gap-5 py-24">
+          <div className="flex flex-wrap gap-5 py-24">
             <div className="text-center  text-2xl px-5 py-1.5 bg-white text-yellow rounded-full relative z-20 -mt-3">
               community support
             </div>
