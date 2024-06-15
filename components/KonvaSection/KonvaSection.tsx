@@ -8,12 +8,14 @@ import { IoIosCloseCircleOutline } from "react-icons/io";
 
 const MiloImage = ({
   img,
+  imgDog,
   stageSize,
 }: {
   img: any;
+  imgDog: any;
   stageSize: { width: number; height: number };
 }) => {
-  const [image] = useImage("https://i.ibb.co/2smp7cR/MILO.png", "anonymous");
+  const [image] = useImage("/dog-head.png", "anonymous");
   const [image1] = useImage(img, "anonymous");
   const [isSelected, setSelected] = useState(false);
   const shapeRef = useRef<HTMLElement | undefined>();

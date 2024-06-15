@@ -10,7 +10,7 @@ export default function NavBar() {
     <nav className="w-full  bg-yellow z-40 py-4 border-b border-white fixed">
       <div className=" px-5 max-w-[90rem] mx-auto flex justify-between items-center ">
         <Image
-          src={"/water.png"}
+          src={"/newDog-2.png"}
           width={150}
           height={150}
           alt="water dog"
