@@ -3,6 +3,7 @@ import AboutUs from "@/components/AboutUs/AboutUs";
 import CommitMent from "@/components/Commitment/CommitMent";
 import Footer from "@/components/Footer/Footer";
 import HeaderSection from "@/components/Header/HeaderSection";
+import NewCommitment from "@/components/Commitment/NewCommitment";
 
 const NoSSRMiloPfp = dynamic(
   () => import("@/components/KonvaSection/KonvaSection"),
@@ -17,7 +18,8 @@ export default function Home() {
       <HeaderSection />
       <AboutUs />
       <NoSSRMiloPfp />
-      <CommitMent />
+      {/* <CommitMent /> */}
+      <NewCommitment />
       <Footer />
     </main>
   );
