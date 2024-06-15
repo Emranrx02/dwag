@@ -20,7 +20,7 @@ export default function Footer() {
                 }
                 className="bg-yellow order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
               >
-                Buy Milo
+                Buy Dwag
               </Link>
               <div className="flex gap-7">
                 <Link

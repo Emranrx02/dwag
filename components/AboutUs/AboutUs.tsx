@@ -22,11 +22,11 @@ export default function AboutUs() {
             Crypto is for everyone, yet many people miss out . Base was designed
             to solve this problem, aspiring to onboard over 1 billion new People
             into the Base<span className="font-sans">/</span>Crypto ecosystem.
-            <span className="font-sans">$</span>Milo wants to be part on this
+            <span className="font-sans">$</span>Dwag wants to be part on this
             journey
             <br />
             <br />
-            <span className="font-sans">$</span>Milo is all about the
+            <span className="font-sans">$</span>Dwag is all about the
             commmunity, everything is designed to encourage our people to
             actively contribute to the token
             <span className="font-sans">{"'"}</span>s growth
@@ -36,7 +36,7 @@ export default function AboutUs() {
             believes in our potential and collaborates to grow together
             <br />
             <br />
-            Are you ready to join Milo on this journey?
+            Are you ready to join Dwag on this journey?
           </p>
         </div>
       </ContentLayout>
