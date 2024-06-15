@@ -11,7 +11,7 @@ const MiloImage = ({
   stageSize,
 }: {
   img: any;
-  imgDog: any;
+
   stageSize: { width: number; height: number };
 }) => {
   const [image] = useImage("/dog-head.png", "anonymous");
