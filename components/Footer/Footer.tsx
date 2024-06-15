@@ -41,7 +41,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col items-center">
               <Image
-                src={"/dog-5.png"}
+                src={"/newDog-4.png"}
                 width={500}
                 height={500}
                 quality={100}
