@@ -26,12 +26,6 @@ export default function AboutUs() {
             journey
             <br />
             <br />
-            <span className="font-sans">$</span>Dawg is all about the
-            commmunity, everything is designed to encourage our people to
-            actively contribute to the token
-            <span className="font-sans">{"'"}</span>s growth
-            <br />
-            <br />
             Successful meme coins share a common thread a community that
             believes in our potential and collaborates to grow together
             <br />
