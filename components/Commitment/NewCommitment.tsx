@@ -7,14 +7,7 @@ export default function NewCommitment() {
       <ContentLayout>
         <div className="w-full flex flex-col justify-center items-center">
           <h4 className="text-5xl">our commitment</h4>
-          <Image
-            src={"/newDog-3.jpg"}
-            width={600}
-            height={100}
-            className="max-w-7xl"
-            alt="new Dog"
-          />
-          <div className="flex flex-wrap gap-5 py-24">
+          <div className="flex flex-wrap gap-5 pt-24">
             <div className="text-center  text-2xl px-5 py-1.5 bg-white text-yellow rounded-full relative z-20 -mt-3">
               community support
             </div>
@@ -28,6 +21,13 @@ export default function NewCommitment() {
               Liqudity Locked
             </div>
           </div>
+          <Image
+            src={"/newDog-3.jpg"}
+            width={450}
+            height={100}
+            className="max-w-lg w-full"
+            alt="new Dog"
+          />
         </div>
       </ContentLayout>
     </div>
