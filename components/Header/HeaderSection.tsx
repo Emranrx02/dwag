@@ -27,20 +27,20 @@ export default function HeaderSection() {
             <span className="font-sans">$</span>Dawg
           </h1>
           <div className="flex items-center gap-5 text-white  text-7xl">
-            <Link target="_blank" href={"https://twitter.com/basemilo"}>
+            <Link target="_blank" href={"https://x.com/dawg_base"}>
               <FaXTwitter className="border-[8px] border-white p-2 rounded-full " />
             </Link>
-            <Link target="_blank" href={"https://t.me/MiloBase"}>
+            <Link target="_blank" href={"https://t.me/DawgBase"}>
               <FaTelegramPlane className="border-[8px] border-white p-2 rounded-full " />
             </Link>
-            <Link
+            {/* <Link
               target="_blank"
               href={
                 "https://dexscreener.com/base/0xfd85ba296b9b71040706250e3ead3a2e387bffd6"
               }
             >
               <FaChartLine className="border-[8px] border-white p-2 rounded-full " />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

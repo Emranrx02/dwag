@@ -15,9 +15,7 @@ export default function Footer() {
             <div className="flex flex-col sm:flex-row gap-5 text-yellow mt-7 text-7xl">
               <Link
                 target="_blank"
-                href={
-                  "https://dexscreener.com/base/0xfd85ba296b9b71040706250e3ead3a2e387bffd6"
-                }
+                href={"https://t.me/DawgBase"}
                 className="bg-yellow order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
               >
                 Buy Dawg
@@ -25,14 +23,14 @@ export default function Footer() {
               <div className="flex gap-7">
                 <Link
                   target="_blank"
-                  href={"https://x.com/basemilo"}
+                  href={"https://x.com/dawg_base"}
                   className="w-16 h-16 hover:scale-110 cursor-pointer -rotate-3 bg-yellow flex items-center justify-center"
                 >
                   <FaXTwitter className="text-white p-2" />
                 </Link>
                 <Link
                   target="_blank"
-                  href={"https://t.me/MiloBase"}
+                  href={"https://t.me/DawgBase"}
                   className="w-16 h-16 rotate-3 hover:scale-110 cursor-pointer bg-yellow flex items-center justify-center"
                 >
                   <FaTelegramPlane className="text-white p-2" />
