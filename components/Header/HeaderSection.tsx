@@ -30,14 +30,14 @@ export default function HeaderSection() {
             <Link target="_blank" href={"https://t.me/MiloBase"}>
               <FaTelegramPlane className="border-[8px] border-white p-2 rounded-full " />
             </Link>
-            {/* <Link
+            <Link
               target="_blank"
               href={
-                "https://www.dextools.io/app/en/base/pair-explorer/0x51eb872bc68137785abbd5586867cf00fa38cfa6?t=1711668724895"
+                "https://dexscreener.com/base/0xfd85ba296b9b71040706250e3ead3a2e387bffd6"
               }
             >
               <FaChartLine className="border-[8px] border-white p-2 rounded-full " />
-            </Link> */}
+            </Link>
           </div>
         </div>
       </div>

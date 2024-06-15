@@ -16,7 +16,7 @@ export default function Footer() {
               <Link
                 target="_blank"
                 href={
-                  "https://dexscreener.com/base/0x51eb872bc68137785abbd5586867cf00fa38cfa6"
+                  "https://dexscreener.com/base/0xfd85ba296b9b71040706250e3ead3a2e387bffd6"
                 }
                 className="bg-yellow order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
               >
