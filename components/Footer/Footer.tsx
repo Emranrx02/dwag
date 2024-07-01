@@ -30,7 +30,7 @@ export default function Footer() {
                 </Link>
                 <Link
                   target="_blank"
-                  href={"#"}
+                  href={"https://t.me/WoofWall"}
                   className="w-16 h-16 rotate-3 hover:scale-110 cursor-pointer bg-yellow flex items-center justify-center"
                 >
                   <FaTelegramPlane className="text-white p-2" />
