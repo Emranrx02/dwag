@@ -18,7 +18,7 @@ export default function Footer() {
                 href={"https://t.me/WoofBase"}
                 className="bg-yellow order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
               >
-                Buy Woof
+                Buy <span className="font-sans">$</span>Woof
               </Link>
               <div className="flex gap-7">
                 <Link
