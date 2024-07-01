@@ -14,7 +14,7 @@ export default function NavBar() {
           width={150}
           height={150}
           alt="water dog"
-          className="w-16 border p-2 h-16 rounded-full"
+          className="max-w-16 border p-2 h-16 rounded-full"
         />
         <Menu className="z-20" right>
           <p

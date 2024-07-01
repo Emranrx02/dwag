@@ -8,11 +8,11 @@ export default function AboutUs() {
         <div className="flex gap-5 text-2xl flex-col items-center">
           <Image
             src={"/newDog-1.png"}
-            className=" mb-10"
+            className=" max-w-sm sm:max-w-lg mb-10"
             quality={100}
             priority
-            width={650}
-            height={500}
+            width={1920}
+            height={1080}
             alt="about-us"
           />
           <p className=" text-5xl sm:text-4xl px-5 text-yellow font-semibold">

@@ -26,10 +26,10 @@ export default function NewCommitment() {
             </div>
           </div>
           <Image
-            src={"/newDog-2.png"}
-            width={300}
+            src={"/dog-smoke.jpg"}
+            width={600}
             height={100}
-            className="max-w-lg  w-full"
+            className="sm:max-w-lg max-w-sm  w-full"
             alt="new Dog"
           />
         </div>
