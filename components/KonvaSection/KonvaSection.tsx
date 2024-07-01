@@ -113,12 +113,6 @@ export default function KonvaSection() {
         //@ts-ignore
         image.src = event.target?.result;
         image.onload = () => {
-          console.log(image.width);
-          // setStageSize({
-          //   width: image.width % 700,
-          //   height: image.height % 600,
-          // });
-
           function getResizedDimensions(
             originalWidth: number,
             originalHeight: number,
@@ -165,9 +159,9 @@ export default function KonvaSection() {
     function updateSize() {
       if (window.innerWidth > 768 && !image) {
         setStageSize({ width: 700, height: 600 });
-      } else if (window.innerWidth < 768) {
+      } else if (window.innerWidth < 768 && !image) {
         setStageSize({ width: 400, height: 300 });
-      } else if (window.innerWidth < 410) {
+      } else if (window.innerWidth < 410 && !image) {
         setStageSize({ width: 350, height: 250 });
       }
     }
