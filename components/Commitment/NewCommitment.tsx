@@ -26,7 +26,7 @@ export default function NewCommitment() {
             </div>
           </div>
           <Image
-            src={"/newDog-4.png"}
+            src={"/newDog-2.png"}
             width={300}
             height={100}
             className="max-w-lg scale-110 w-full"
