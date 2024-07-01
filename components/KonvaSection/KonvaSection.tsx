@@ -111,6 +111,7 @@ export default function KonvaSection() {
 
       reader.onload = function (event) {
         const image = new Image();
+        //@ts-ignore
         image.src = event.target?.result;
         image.onload = () => {
           console.log(image.width);
@@ -120,10 +121,10 @@ export default function KonvaSection() {
           // });
 
           function getResizedDimensions(
-            originalWidth,
-            originalHeight,
-            maxWidth,
-            maxHeight
+            originalWidth: number,
+            originalHeight: number,
+            maxWidth: number,
+            maxHeight: number
           ) {
             let width = originalWidth;
             let height = originalHeight;
