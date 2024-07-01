@@ -9,7 +9,7 @@ export default function AboutUs() {
           <Image
             src={"/newDog-1.png"}
             className=" mb-10"
-            quality={99}
+            quality={100}
             priority
             width={650}
             height={500}

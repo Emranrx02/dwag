@@ -29,7 +29,7 @@ export default function NewCommitment() {
             src={"/newDog-2.png"}
             width={300}
             height={100}
-            className="max-w-lg scale-110 w-full"
+            className="max-w-lg  w-full"
             alt="new Dog"
           />
         </div>
