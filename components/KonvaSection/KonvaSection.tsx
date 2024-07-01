@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 "use client";
-import sizeOf from "image-size";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { Stage, Layer, Image as KonvaImage, Transformer } from "react-konva";
 import useImage from "use-image";
