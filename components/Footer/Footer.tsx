@@ -37,18 +37,18 @@ export default function Footer() {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex w-[28rem] flex-col items-center">
               <Image
-                src={"/newDog-4.png"}
-                width={500}
+                src={"/Group-30.svg"}
+                width={400}
                 height={500}
-                quality={100}
+                quality={95}
                 priority
                 alt="dog"
-                className="w-[30rem]"
+                className=""
               />
-              <div className=" px-3 py-2 rounded-full bg-yellow text-white text-xs sm:text-sm inline-block">
-                0000000000000000000000000000000000000009
+              <div className=" px-5 sm:px-1 mr-10 py-2 rounded-full bg-yellow text-white text-xs sm:text-sm inline-block">
+                000000000000000000000000000000000000009
               </div>
             </div>
           </div>

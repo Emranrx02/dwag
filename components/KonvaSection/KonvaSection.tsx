@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 "use client";
-
+import sizeOf from "image-size";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
-import { Stage, Layer, Image, Transformer } from "react-konva";
+import { Stage, Layer, Image as KonvaImage, Transformer } from "react-konva";
 import useImage from "use-image";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 
@@ -35,14 +35,14 @@ const MiloImage = ({
   return (
     <div>
       {img && (
-        <Image
+        <KonvaImage
           id="img2"
           width={stageSize.width}
           height={stageSize.height}
           image={image1}
         />
       )}
-      <Image
+      <KonvaImage
         //@ts-ignore
         ref={shapeRef}
         //@ts-ignore
@@ -88,7 +88,6 @@ export default function KonvaSection() {
   const [image, setImage] = useState<any>();
   const [stageSize, setStageSize] = useState({ width: 700, height: 600 });
   const stageRef = useRef();
-
   const handleSelectFile = (e: any) => {
     if (!image) {
       //@ts-ignore
@@ -109,7 +108,52 @@ export default function KonvaSection() {
     const fl = file.current?.files[0];
     if (fl) {
       const reader = new FileReader();
+
       reader.onload = function (event) {
+        const image = new Image();
+        image.src = event.target?.result;
+        image.onload = () => {
+          console.log(image.width);
+          // setStageSize({
+          //   width: image.width % 700,
+          //   height: image.height % 600,
+          // });
+
+          function getResizedDimensions(
+            originalWidth,
+            originalHeight,
+            maxWidth,
+            maxHeight
+          ) {
+            let width = originalWidth;
+            let height = originalHeight;
+
+            if (width > height) {
+              if (width > maxWidth) {
+                height = Math.round((height * maxWidth) / width);
+                width = maxWidth;
+              }
+            } else {
+              if (height > maxHeight) {
+                width = Math.round((width * maxHeight) / height);
+                height = maxHeight;
+              }
+            }
+
+            return { width, height };
+          }
+          const res = getResizedDimensions(
+            image.width,
+            image.height,
+            stageSize.width,
+            stageSize.height
+          );
+          setStageSize({
+            width: res.width,
+            height: res.height,
+          });
+        };
+
         const imageSrc = event.target?.result;
         setImage(imageSrc);
       };
@@ -119,7 +163,7 @@ export default function KonvaSection() {
 
   useLayoutEffect(() => {
     function updateSize() {
-      if (window.innerWidth > 768) {
+      if (window.innerWidth > 768 && !image) {
         setStageSize({ width: 700, height: 600 });
       } else if (window.innerWidth < 768) {
         setStageSize({ width: 400, height: 300 });
