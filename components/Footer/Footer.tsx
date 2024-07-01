@@ -15,22 +15,22 @@ export default function Footer() {
             <div className="flex flex-col sm:flex-row gap-5 text-yellow mt-7 text-7xl">
               <Link
                 target="_blank"
-                href={"https://t.me/DawgBase"}
+                href={"https://t.me/WoofBase"}
                 className="bg-yellow order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
               >
-                Buy Dawg
+                Buy Woof
               </Link>
               <div className="flex gap-7">
                 <Link
                   target="_blank"
-                  href={"https://x.com/dawg_base"}
+                  href={"https://x.com/Woof_base"}
                   className="w-16 h-16 hover:scale-110 cursor-pointer -rotate-3 bg-yellow flex items-center justify-center"
                 >
                   <FaXTwitter className="text-white p-2" />
                 </Link>
                 <Link
                   target="_blank"
-                  href={"https://t.me/DawgBase"}
+                  href={"https://t.me/WoofBase"}
                   className="w-16 h-16 rotate-3 hover:scale-110 cursor-pointer bg-yellow flex items-center justify-center"
                 >
                   <FaTelegramPlane className="text-white p-2" />

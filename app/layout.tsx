@@ -20,8 +20,8 @@ const inter = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Dawg",
-  description: "The first real $dawg on base",
+  title: "$Woof of Wall Street",
+  description: "The $Woof of Wall Street",
   icons: {
     icon: "/ico3.ico",
   },
