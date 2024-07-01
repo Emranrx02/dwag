@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function HeaderSection() {
   return (
     <div id="home" className="bg-[#E5A220]   relative w-full">
-      <div className="pt-[2%] px-8 relative z-10   xl:gap-10 text-xl sm:text-2xl flex-col xl:flex-row flex items-center">
+      <div className="pt-[2%] px-8 relative z-10 xl:gap-10 text-xl sm:text-2xl flex-col xl:flex-row flex items-center">
         <Image
           src={"/newDog-3.jpg"}
           width={1920}
@@ -27,7 +27,7 @@ export default function HeaderSection() {
             <span className="font-sans">$</span>Woof
           </h1>
           <div className="flex items-center gap-5 text-white  text-7xl">
-            <Link target="_blank" href={"#"}>
+            <Link target="_blank" href={"https://x.com/WoofOfWall"}>
               <FaXTwitter className="border-[8px] border-white p-2 rounded-full " />
             </Link>
             <Link target="_blank" href={"https://t.me/WoofWall"}>

@@ -23,7 +23,7 @@ export default function Footer() {
               <div className="flex gap-7">
                 <Link
                   target="_blank"
-                  href={"#"}
+                  href={"https://x.com/WoofOfWall"}
                   className="w-16 h-16 hover:scale-110 cursor-pointer -rotate-3 bg-yellow flex items-center justify-center"
                 >
                   <FaXTwitter className="text-white p-2" />
