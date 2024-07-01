@@ -1,8 +1,6 @@
-import ContentLayout from "@/utils/Layouts/ContentLayout";
 import Image from "next/image";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
-import { FaChartLine } from "react-icons/fa6";
 import Link from "next/link";
 
 export default function HeaderSection() {
@@ -29,10 +27,10 @@ export default function HeaderSection() {
             <span className="font-sans">$</span>Woof
           </h1>
           <div className="flex items-center gap-5 text-white  text-7xl">
-            <Link target="_blank" href={"https://x.com/Woof_base"}>
+            <Link target="_blank" href={"#"}>
               <FaXTwitter className="border-[8px] border-white p-2 rounded-full " />
             </Link>
-            <Link target="_blank" href={"https://t.me/WoofBase"}>
+            <Link target="_blank" href={"#"}>
               <FaTelegramPlane className="border-[8px] border-white p-2 rounded-full " />
             </Link>
             {/* <Link
